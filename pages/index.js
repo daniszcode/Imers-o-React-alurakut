@@ -19,7 +19,7 @@ grid-gap: 10px;
 padding: 16px;
 max-width: 500px;
 .profileArea {
-  display: none;
+    display: none;
   @media(min-width: 860px){
     display: block;
   }
