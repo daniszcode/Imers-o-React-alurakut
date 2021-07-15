@@ -1,4 +1,5 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { AlurakutStyles } from '../src/components/lib/AlurakutCommons';
 
 const GlobalStyle = createGlobalStyle`
  * {
@@ -25,6 +26,7 @@ img {
   display: block;
 }
 
+${AlurakutStyles}
 `
 
 const theme = {
