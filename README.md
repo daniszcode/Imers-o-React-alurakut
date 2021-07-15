@@ -11,4 +11,5 @@ Com a proposta de nos mostrar como Nextjs funciona, a Alura prôpos a criação 
 
 ## Link do projeto
 
-- alurakut-daniszcode.vercel.app
+- - [alurakut-daniszcode.vercel.app](alurakut-daniszcode.vercel.app)
+
