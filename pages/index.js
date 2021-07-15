@@ -1,16 +1,29 @@
 //import styled from 'styled-components'
 import MainGrid from '../src/components/MainGrid'
 import Box from '../src/components/Box'
+import { AlurakutMenu } from '../src/components/lib/AlurakutCommons';
+//O nome da const/function precisa começar com letra maiuscula, pois se trata de um componente da pag
+//para usar "js + html" no react é necessario o '{{}}'
 
-//O nome da const precisa começar com letra maiuscula, pois se trata de um componente da pag
+function ProfileSidebar(props) {
+  return (
+    <Box>
+     <img src={`https://github.com/${props.githubUser}.png`} style={{ borderRadius: '8px' }} ></img> 
+    </Box>
+  )
+}
+
+
 
 export default function Home() {
+  const githubUser = 'daniszcode';
+
   return (
-  <MainGrid>
+    <>
+    <AlurakutMenu />
+    <MainGrid>
     <div className="profileArea" style={{ gridArea: 'profileArea' }}>
-    <Box>
-     <img src="https://github.com/daniszcode.png" style={{ borderRadius: '8px' }} ></img>
-    </Box>
+    <ProfileSidebar githubUser={githubUser} />
     </div>
     <div className="welcomeArea" style={{ gridArea: 'welcomeArea' }}>
   <Box>
@@ -26,7 +39,7 @@ export default function Home() {
   </Box>
   </div>
   </MainGrid>
-  
+  </>
   
   
   
