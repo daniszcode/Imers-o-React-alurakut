@@ -7,4 +7,5 @@ Com a proposta de nos mostrar como Nextjs funciona, a Alura prôpos a criação 
 
 ## Authors
 
+
 - [@daniszcode](https://github.com/daniszcode)
